@@ -1,0 +1,141 @@
+html, body {
+
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #0C0C0C;
+    overflow: hidden;
+}
+
+.Landing{
+    margin-left: 5vw;
+    color: whitesmoke;
+    font-size: 5vw;
+    font-family: "Poppins", sans-serif;
+}
+
+.Start{
+    position: absolute;
+    width: 10vw;
+    height: 2.5vw;
+    left: 25vw;
+    top: 6.5vw;
+    background-color: #e80808;
+    border-radius: 2vw;
+    color: white;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.5vw;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.Start:hover{
+    color: #e80808;
+    background-color:white ;
+    transition-duration: 0.5s;
+
+}
+
+.Start:active{
+    color: #e80808;
+    scale: 0.7;
+    background-color:white ;
+    transition-duration: 0.5s;
+
+}
+
+.watch {
+    visibility: hidden;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    color: black;
+    padding: 10px;
+    font-size: 2rem;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.container{
+    position: static;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px; 
+    display: flex;
+    border-radius: 25px;
+    transform: translate(32.5vw, 25%);
+    width: 35vw;
+    height: 200px;
+    visibility: hidden;
+}
+
+.Light {
+    padding: 5px;
+    display: flex;
+    flex-direction: column; /* Arrange bulbs in a column */
+    align-items: center; /* Center the bulbs horizontally */
+    gap: 5px;
+    height: max-content;
+    border-radius: 5px;
+    background-color: #0C0C0C;
+    
+}
+
+.Bulb {
+    width: 5vw;
+    height: 10vh;
+    border-radius: 50%;
+}
+.instr{
+    width: 37.5vw;
+    font-family: "Poppins", sans-serif;
+    transform: translate(38vw,100px);
+}
+
+@media (max-width: 480px) {
+    /* Mobile screens */
+    .watch {
+        visibility: hidden;
+        position: fixed;
+        top: 28.5%;
+        left: 50%;
+        transform: translate(-50%);
+        color: black;
+        padding: 10px;
+        font-size: 2rem;
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+    }
+    .container {
+        width: 90vw; /* Full width for mobile */
+        transform: translate(5%, 25%);
+        padding: 1vw;
+        gap: 1vw;
+    }
+    .Light {
+        width: 10vw; /* Make the lights larger for mobile */
+    }
+    .Bulb {
+        width: 9vw; /* Larger bulbs for mobile */
+        height: 4.5vh;
+    }
+    .instr{
+        width: 45vw;
+        font-family: "Poppins", sans-serif;
+        transform: translate(29.5vw,100px);
+    }
+}
+.RedOn{
+    background-color:#e80808;
+}
+
+.GreenOn{
+    background-color:#03933a;
+}
+.Off{
+    background-color:#212121;
+}
