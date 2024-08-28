@@ -93,7 +93,7 @@ html, body {
     font-size: 5vh;
     font-weight: 750;
     top: 75%;
-    left: 50%;
+    left: 51.5%;
     font-family: "Poppins", sans-serif;
     transform: translate(-50%);
     
@@ -104,18 +104,19 @@ html, body {
     .watch {
         visibility: hidden;
         position: fixed;
-        top: 50%;
+        top: 40%;
         left: 50%;
         transform: translate(-50%);
         color: black;
         padding: 1vh;
-        font-size: 2rem;
+        font-size: 3rem;
+        font-weight: 500;
         text-align: center;
         font-family: "Poppins", sans-serif;
     }
     .container {
         width: 90vw;
-        transform: translate(15%, 25%);
+        transform: translate(5%, 35%);
         padding: 1vw;
         gap: 1vw;
     }
@@ -132,7 +133,7 @@ html, body {
         width: 45vw;
         font-size: 2vh;
         font-weight: 650;
-        top: 60%;
+        top: 50%;
         left: 50%;
         font-family: "Poppins", sans-serif;
         transform: translate(-50%);
