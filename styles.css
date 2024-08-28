@@ -49,12 +49,12 @@ html, body {
 .watch {
     visibility: hidden;
     position: fixed;
-    top: 50%;
+    top: 62.5%;
     left: 50%;
     transform: translate(-50%);
     color: black;
-    padding: 1wh;
-    font-size: 2rem;
+    font-size: 5vh;
+    font-weight: 500;
     text-align: center;
     font-family: "Poppins", sans-serif;
 }
@@ -88,9 +88,15 @@ html, body {
     border-radius: 50%;
 }
 .instr{
-    width: 37.5vw;
+    position: absolute;
+    width: 32vw;
+    font-size: 5vh;
+    font-weight: 750;
+    top: 75%;
+    left: 50%;
     font-family: "Poppins", sans-serif;
-    transform: translate(38vw,20vw);
+    transform: translate(-50%);
+    
 }
 
 @media (max-width: 480px) {
