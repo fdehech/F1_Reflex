@@ -53,7 +53,7 @@ html, body {
     left: 50%;
     transform: translate(-50%);
     color: black;
-    padding: 10px;
+    padding: 1wh;
     font-size: 2rem;
     text-align: center;
     font-family: "Poppins", sans-serif;
@@ -64,23 +64,20 @@ html, body {
     position: static;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 5px; 
+    gap: 1vh; 
     display: flex;
-    border-radius: 25px;
-    transform: translate(32.5vw, 25%);
-    width: 35vw;
-    height: 200px;
+    transform: translate(0, 30%);
     visibility: hidden;
 }
 
 .Light {
-    padding: 5px;
+    padding: 0.5vw;
     display: flex;
     flex-direction: column; /* Arrange bulbs in a column */
     align-items: center; /* Center the bulbs horizontally */
-    gap: 5px;
+    gap: 0.75vh;
     height: max-content;
-    border-radius: 5px;
+    border-radius: 1vw;
     background-color: #0C0C0C;
     
 }
@@ -93,7 +90,7 @@ html, body {
 .instr{
     width: 37.5vw;
     font-family: "Poppins", sans-serif;
-    transform: translate(38vw,100px);
+    transform: translate(38vw,20vw);
 }
 
 @media (max-width: 480px) {
@@ -105,7 +102,7 @@ html, body {
         left: 50%;
         transform: translate(-50%);
         color: black;
-        padding: 10px;
+        padding: 1vh;
         font-size: 2rem;
         text-align: center;
         font-family: "Poppins", sans-serif;
@@ -126,7 +123,7 @@ html, body {
     .instr{
         width: 45vw;
         font-family: "Poppins", sans-serif;
-        transform: translate(29.5vw,100px);
+        transform: translate(29.5vw,20vw);
     }
 }
 .RedOn{
